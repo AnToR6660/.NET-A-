@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewBag.Title = "referance";
+}
+
+<h2>Referance</h2>
+<br>
+<br>
+@foreach (var person in ViewBag.person)
+{
+    <table border="0">
+        <tr>
+            <td>Name</td>
+            <td>:</td>
+            <td>@person.name</td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>:</td>
+            <td>@person.email</td>
+        </tr>
+        <tr>
+            <td>Contact</td>
+            <td>:</td>
+            <td>@person.contact</td>
+        </tr>
+
+    </table>
+    <br><br>
+}
+
+
+
+
+
+
