@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "projects";
+}
+
+<h2>Projects</h2>
+
+@foreach (var item in ViewBag.projectlist)
+{
+    <ul style="margin-bottom: 0">
+        <li>@item.ProjectName</li>
+    </ul>
+    <p style="line-height: 1; margin-top: 0">
+        @item.ProjectDetails
+    </p>
+
+
+}
