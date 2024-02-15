@@ -1,0 +1,166 @@
+E:\.net HW\New folder\LabTask3\LabTask3\bin\LabTask3.dll.config
+E:\.net HW\New folder\LabTask3\LabTask3\bin\LabTask3.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\LabTask3.pdb
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\csc.exe
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\csc.exe.config
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\csc.rsp
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\csi.exe
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\csi.exe.config
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\csi.rsp
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\Microsoft.Managed.Core.targets
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\System.AppContext.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\System.Collections.Immutable.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\System.Console.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\System.Globalization.Calendars.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\System.IO.Compression.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\System.IO.FileSystem.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\System.Net.Http.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\System.Net.Sockets.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\System.Reflection.Metadata.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\System.ValueTuple.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\System.Xml.XmlDocument.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\System.Xml.XPath.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\vbc.exe
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\vbc.exe.config
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\vbc.rsp
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\VBCSCompiler.exe
+E:\.net HW\New folder\LabTask3\LabTask3\bin\roslyn\VBCSCompiler.exe.config
+E:\.net HW\New folder\LabTask3\LabTask3\bin\Antlr3.Runtime.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\EntityFramework.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\EntityFramework.SqlServer.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\Microsoft.Web.Infrastructure.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\Newtonsoft.Json.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\System.Web.Helpers.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\System.Web.Mvc.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\System.Web.Optimization.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\System.Web.Razor.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\System.Web.WebPages.Deployment.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\System.Web.WebPages.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\System.Web.WebPages.Razor.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\WebGrease.dll
+E:\.net HW\New folder\LabTask3\LabTask3\bin\EntityFramework.xml
+E:\.net HW\New folder\LabTask3\LabTask3\bin\EntityFramework.SqlServer.xml
+E:\.net HW\New folder\LabTask3\LabTask3\bin\System.Web.Helpers.xml
+E:\.net HW\New folder\LabTask3\LabTask3\bin\System.Web.Mvc.xml
+E:\.net HW\New folder\LabTask3\LabTask3\bin\System.Web.Optimization.xml
+E:\.net HW\New folder\LabTask3\LabTask3\bin\System.Web.Razor.xml
+E:\.net HW\New folder\LabTask3\LabTask3\bin\System.Web.WebPages.xml
+E:\.net HW\New folder\LabTask3\LabTask3\bin\System.Web.WebPages.Deployment.xml
+E:\.net HW\New folder\LabTask3\LabTask3\bin\System.Web.WebPages.Razor.xml
+E:\.net HW\New folder\LabTask3\LabTask3\bin\Newtonsoft.Json.xml
+E:\.net HW\New folder\LabTask3\LabTask3\bin\Antlr3.Runtime.pdb
+E:\.net HW\New folder\LabTask3\LabTask3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\.net HW\New folder\LabTask3\LabTask3\obj\Debug\LabTask3.csproj.AssemblyReference.cache
+E:\.net HW\New folder\LabTask3\LabTask3\obj\Debug\LabTask3.csproj.CoreCompileInputs.cache
+E:\.net HW\New folder\LabTask3\LabTask3\obj\Debug\LabTask3.csproj.CopyComplete
+E:\.net HW\New folder\LabTask3\LabTask3\obj\Debug\LabTask3.dll
+E:\.net HW\New folder\LabTask3\LabTask3\obj\Debug\LabTask3.pdb
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\LabTask3.dll.config
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\LabTask3.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\LabTask3.pdb
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\csc.exe
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\csc.exe.config
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\csc.rsp
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\csi.exe
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\csi.exe.config
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\csi.rsp
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\Microsoft.Managed.Core.targets
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\System.AppContext.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\System.Collections.Immutable.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\System.Console.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\System.Globalization.Calendars.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\System.IO.Compression.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\System.IO.FileSystem.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\System.Net.Http.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\System.Net.Sockets.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\System.Reflection.Metadata.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\System.ValueTuple.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\System.Xml.XmlDocument.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\System.Xml.XPath.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\vbc.exe
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\vbc.exe.config
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\vbc.rsp
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\VBCSCompiler.exe
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\roslyn\VBCSCompiler.exe.config
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\Antlr3.Runtime.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\EntityFramework.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\EntityFramework.SqlServer.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\Microsoft.Web.Infrastructure.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\Newtonsoft.Json.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\System.Web.Helpers.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\System.Web.Mvc.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\System.Web.Optimization.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\System.Web.Razor.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\System.Web.WebPages.Deployment.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\System.Web.WebPages.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\System.Web.WebPages.Razor.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\WebGrease.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\EntityFramework.xml
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\EntityFramework.SqlServer.xml
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\System.Web.Helpers.xml
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\System.Web.Mvc.xml
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\System.Web.Optimization.xml
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\System.Web.Razor.xml
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\System.Web.WebPages.xml
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\System.Web.WebPages.Deployment.xml
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\System.Web.WebPages.Razor.xml
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\Newtonsoft.Json.xml
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\Antlr3.Runtime.pdb
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\obj\Debug\LabTask3.csproj.AssemblyReference.cache
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\obj\Debug\LabTask3.csproj.CoreCompileInputs.cache
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\obj\Debug\LabTask3.csproj.CopyComplete
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\obj\Debug\LabTask3.dll
+F:\github\hw1\.NET-A-\LabTask3\LabTask3\obj\Debug\LabTask3.pdb
