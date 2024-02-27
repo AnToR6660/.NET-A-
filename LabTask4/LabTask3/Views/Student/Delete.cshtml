@@ -1,0 +1,15 @@
+﻿@model LabTask3.EF.StudentTbl
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+<form action="" method="post" class="form-control" >
+    <p>name: @Html.DisplayFor(model => model.name)</p><br>
+    <p>address: @Html.DisplayFor(model => model.address) </p><br>
+    <p>cgpa: @Html.DisplayFor(model => model.cgpa)</p><br>
+    <p>Department:  @Html.DisplayFor(model => model.DepartmentTbl.name)</p><br>
+    <input type="submit" class="btn btn-danger" value="Confirm-Delete">
+    <a href="/Student/list" class="btn btn-success">No</a>
+</form>
