@@ -1,0 +1,27 @@
+﻿@model IEnumerable<LabTask5.DTOs.ProductDTO>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<table class="table">
+    <tr>
+        <th>Product ID</th>
+        <th>Product Name</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Category Name</th>
+    </tr>
+    @foreach (var data in Model)
+    {
+        <tr>
+            <td>@data.Id</td>
+            <td>@data.ProductName</td>
+            <td>@data.Price</td>
+            <td>@data.Quantity</td>
+            <td>@data.Category.CategoryName</td>
+            
+        </tr>
+    }
+
+</table>

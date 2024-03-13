@@ -1,0 +1,35 @@
+﻿@model IEnumerable<LabTask5.DTOs.ProductDTO>
+@{
+    ViewBag.Title = "Cart";
+}
+
+<h2>Cart</h2>
+@if (Session["cart"] == null) 
+{
+
+
+
+<h2 align="center">the cart is Empty</h2>
+}
+else 
+{
+
+
+<table class="table">
+    <tr>
+        <td>Product name</td>
+        <td>Product Quantity</td>
+        <td>Unit Price</td>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+        <td>@item.ProductName</td>
+        <td>@item.Quantity</td>
+        <td>@item.Price</td>
+        </tr>
+
+    }
+
+</table>
+}

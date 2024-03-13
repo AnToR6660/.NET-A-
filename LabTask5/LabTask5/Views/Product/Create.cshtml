@@ -1,0 +1,24 @@
+﻿@model LabTask5.DTOs.ProductDTO
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+<form action=" " method="post" class="form-control">
+    <h5>Product name</h5>
+    <input type="text" name="ProductName">
+    <h5>Quantity</h5>
+    <input type="text" name="Quantity">
+    <h5>Price</h5>
+    <input type="text" name="Price">
+    <h5>Category</h5>
+    <select name="CategoryId">
+        @foreach (var item in ViewBag.Category)
+        {
+            <option value="@item.Id "> @item.CategoryName</option>
+
+        }
+    </select><br><br>
+    <input type="submit" class="btn btn-success" value="Add Product">
+</form>
+

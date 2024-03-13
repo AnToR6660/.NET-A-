@@ -1,0 +1,33 @@
+﻿@model IEnumerable<LabTask5.DTOs.ProductDTO>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<table class="table">
+    <tr>
+        <th>Products</th>
+        <th>Quantity</th>
+        <th>Price</th>
+        <th>Quantity</th>
+    </tr>
+
+    @foreach (var product in Model)
+    {
+        <tr>
+            <td>@product.ProductName</td>
+            <td>@product.Quantity</td>
+            <td>@product.Price</td>
+            <td>
+                <form action="/Order/AddToCart" method="post">
+                    <input type="hidden" name="ProductName" value="@product.ProductName">
+                    <input type="hidden" name="Id" value="@product.Id">
+                    <input type="text" name="Quantity" value="">
+                    <input type="submit" value="Add To Cart" class="btn btn-danger">
+                </form>
+            </td>
+        </tr>
+
+    }
+
+</table>
