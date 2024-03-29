@@ -1,0 +1,69 @@
+﻿@model IEnumerable<ZeroHungerV2.DTOs.ApprovedDTO>
+
+@{
+    ViewBag.Title = "Delivered";
+}
+
+
+
+@{
+    Layout = "~/Views/Shared/AdminNavbar.cshtml";
+}
+
+
+<style>
+    /* Add your custom CSS styles here */
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+        .table th,
+        .table td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #f2f2f2;
+        }
+
+        .table th {
+            background-color: #f8f9fa;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .table tr:hover {
+            background-color: #f4f4f4;
+        }
+
+    /* Add more styles as needed */
+</style>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Restaurant name</th>
+            <th>Location</th>
+            <th>Food-item</th>
+            <th>Quantity</th>
+            <th>Delivered By</th>
+            <th>Delivered Time</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Restaurant.name</td>
+                <td>@item.Restaurant.location</td>
+                <td>@item.Food.name</td>
+                <td>@item.Food.quantity</td>
+                <td>@item.Employee.name</td>
+                <td>@item.deliveredtime</td>
+            </tr>
+        }
+    </tbody>
+</table>

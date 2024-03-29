@@ -1,0 +1,92 @@
+﻿@model IEnumerable<ZeroHungerV2.DTOs.ApprovedDTO>
+
+@{
+    ViewBag.Title = "EmployeeFood";
+}
+
+@{
+    Layout = "~/Views/Shared/EmployeeNavbar.cshtml";
+}
+
+
+<style>
+
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+        .table th,
+        .table td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #f2f2f2;
+        }
+
+        .table th {
+            background-color: #f8f9fa;
+            color: #333;
+            font-weight: bold;
+            text-transform: capitalize;
+        }
+
+        .table tr:hover {
+            background-color: #f4f4f4;
+        }
+
+    .btn-delivered {
+        background-color: #28a745;
+        color: #fff;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+        .btn-delivered:hover {
+            background-color: #218838;
+        }
+</style>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Restaurant</th>
+            <th>Food Item</th>
+            <th>Quantity</th>
+            <th>Location</th>
+            <th>Food Assigned Time</th>
+            <th>Action</th>
+            <th>
+            <th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Restaurant.name)</td>
+                <td>@Html.DisplayFor(modelItem => item.Food.name)</td>
+                <td>@Html.DisplayFor(modelItem => item.Food.quantity)</td>
+                <td>@Html.DisplayFor(modelItem => item.Restaurant.location)</td>
+                <td>@Html.DisplayFor(modelItem => item.Food.assigntime)</td>
+                <td>
+                    <form method="post" action="">
+                        <input type="hidden" name="Fid" value="@item.Food.id">
+                        <input type="hidden" name="Eid" value="@item.Employee.id">
+                        <input type="hidden" name="Rid" value="@item.Restaurant.id">
+                        <input type="hidden" name="Food.status" value="Delivered">
+                        <input type="hidden" name="id" value="@item.id">
+                        <input type="hidden" name="deliveredtime" value="">
+                        <button type="submit" class="btn btn-delivered">Delivered</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

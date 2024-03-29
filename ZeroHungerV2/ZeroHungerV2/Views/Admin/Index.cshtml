@@ -1,0 +1,74 @@
+﻿@model IEnumerable<ZeroHungerV2.DTOs.FoodDTO>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+
+@{
+    Layout = "~/Views/Shared/AdminNavbar.cshtml";
+}
+
+<style>
+    /* Add your custom CSS styles here */
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+        .table th,
+        .table td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #f2f2f2;
+        }
+
+        .table th {
+            background-color: #f8f9fa;
+            color: #333;
+            font-weight: bold;
+            text-transform: capitalize; /* Capitalize the column headers */
+        }
+
+        .table tr:hover {
+            background-color: #f4f4f4;
+        }
+
+        .table td:first-child {
+            font-weight: bold;
+        }
+
+    /* Add more styles as needed */
+</style>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.name)</th>
+            <th>@Html.DisplayNameFor(model => model.quantity)</th>
+            <th>@Html.DisplayNameFor(model => model.time)</th>
+            <th>@Html.DisplayNameFor(model => model.Rid)</th>
+            <th>@Html.DisplayNameFor(model => model.assigntime)</th>
+            <th>@Html.DisplayNameFor(model => model.status)</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.name)</td>
+                <td>@Html.DisplayFor(modelItem => item.quantity)</td>
+                <td>@Html.DisplayFor(modelItem => item.time)</td>
+                <td>@Html.DisplayFor(modelItem => item.Restaurant.name)</td>
+                <td>@Html.DisplayFor(modelItem => item.assigntime)</td>
+                <td>@Html.DisplayFor(modelItem => item.status)</td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,91 @@
+﻿@model ZeroHungerV2.DTOs.FoodDTO
+
+@{
+    ViewBag.Title = "Foods";
+}
+
+
+@{
+    Layout = "~/Views/Shared/AdminNavbar.cshtml";
+}
+
+
+
+
+<style>
+    /* Add your custom CSS styles here */
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+        .table th,
+        .table td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #f2f2f2;
+        }
+
+        .table th {
+            background-color: #f8f9fa;
+            color: #333;
+            font-weight: bold;
+            text-transform: capitalize; /* Capitalize the column headers */
+        }
+
+        .table tr:hover {
+            background-color: #f4f4f4;
+        }
+
+        .table td:first-child {
+            font-weight: bold;
+        }
+
+    /* Add more styles as needed */
+</style>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.name)</th>
+            <th>@Html.DisplayNameFor(model => model.quantity)</th>
+            <th>@Html.DisplayNameFor(model => model.time)</th>
+            <th>@Html.DisplayNameFor(model => model.Rid)</th>
+            <th>@Html.DisplayNameFor(model => model.assigntime)</th>
+            <th>@Html.DisplayNameFor(model => model.status)</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in ViewBag.foods)
+        {
+            <tr>
+                <td>@item.name</td>
+                <td>@item.quantity</td>
+                <td>@item.time</td>
+                <td>@item.Restaurant.name</td>
+                <td>@item.assigntime</td>
+                <td>@item.status</td>
+                <td>
+                    <form action="/Admin/Food" method="post">
+                        <input type="hidden" name="id" value="@item.id">
+                        <input type="hidden" name="name" value="@item.name">
+                        <input type="hidden" name="quantity" value="@item.quantity">
+                        <input type="hidden" name="time" value="@item.time">
+                        <input type="hidden" name="Rid" value="@item.Rid">
+                        <input type="hidden" name="assigntime" value="@item.assigntime">
+                        <input type="hidden" name="status" value="@item.status">
+                        <input type="hidden" name="Restaurant.name" value="@item.Restaurant.name">
+                        <input type="hidden" name="Restaurant.id" value="@item.Restaurant.id">
+                        <input type="hidden" name="Restaurant.location" value="@item.Restaurant.location">
+                        <input type="submit" value="Confirm" class="btn btn-danger">
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
